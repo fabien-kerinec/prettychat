@@ -1,0 +1,3 @@
+mutation LoginFormLogin($input: UserCreateInput!) {
+  login(input: $input)
+}
